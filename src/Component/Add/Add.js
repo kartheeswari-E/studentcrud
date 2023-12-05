@@ -22,7 +22,7 @@ function Add() {
     })
     const navigate = useNavigate()
     const addStudent = (newstuList) => {
-        fetch(`${process.env.REACT_APP_API_URL}`, {
+        fetch(`${process.env.REACT_APP_API_URL}/add`, {
             method: "POST",
             body: JSON.stringify(newstuList),
             headers: {
