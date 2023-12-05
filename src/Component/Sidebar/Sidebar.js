@@ -7,7 +7,7 @@ function Sidebar() {
 <aside id="sidebar" className="sidebar">
   <ul className="sidebar-nav" id="sidebar-nav">
     <li className="nav-item">
-   <Link to={"/dashboard"} className="nav-link ">
+   <Link to={"/"} className="nav-link ">
         <i className="bi bi-grid" />
         <span>List Of Students</span>
       </Link>

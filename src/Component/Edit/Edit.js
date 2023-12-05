@@ -44,7 +44,7 @@ export function Editstudents() {
             headers: {
                 "Content-Type": "application/json"
             },
-        }).then(() => navigate('/dashboard'))
+        }).then(() => navigate('/'))
             .catch((n) => console.log('error occurred' + n))
     };
   return <>
