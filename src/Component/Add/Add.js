@@ -80,7 +80,7 @@ function Add() {
                 helperText={touched.card && errors.card ? errors.card : null}
                 label="card" variant="outlined" />
           
-            <Button type="Submit" variant="contained">Add Student</Button>
+            <Button className='button-submit' type="Submit" variant="contained">Add Student</Button>
         </Box>
   </>
 }

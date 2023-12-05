@@ -1,6 +1,6 @@
 .sidebar {
     position: fixed;
-    top: 74px;
+    top:0px;
     left: 0;
     bottom: 0;
     width: 300px;
@@ -10,8 +10,9 @@
     overflow-y: auto;
     scrollbar-width: thin;
     scrollbar-color: #aab7cf transparent;
-    box-shadow: 0px 0px 20px rgba(1, 41, 112, 0.1);
+    /* box-shadow: 0px 0px 20px rgba(1, 41, 112, 0.1); */
     background-color: #fff;
+    box-shadow: 0px 0px 35px 0px rgba(154, 161, 171, .15);
   }
   a{
     padding: 20px;
@@ -19,41 +20,13 @@
     font-size: 20px;
     text-decoration: none;
     cursor: pointer;
-    margin-top: 30px;
+    margin-top: 20px;
   }
-  @media (max-width: 1199px) {
-    .sidebar {
-      left: -300px;
-    }
+  .app-name{
+    font-size: 22px;
+    font-weight: bold;
+  
   }
-
-  
-  @media (min-width: 1200px) {
-  
-    #main,
-    #footer {
-      margin-left: 300px;
-    }
-  }
-  
-  @media (max-width: 1199px) {
-    .toggle-sidebar .sidebar {
-      left: 0;
-    }
-  }
-  
-  @media (min-width: 1200px) {
-  
-    .toggle-sidebar #main,
-    .toggle-sidebar #footer {
-      margin-left: 0;
-    }
-  
-    .toggle-sidebar .sidebar {
-      left: -300px;
-    }
-  }
-  
   .sidebar-nav {
     padding: 0;
     margin: 0;
